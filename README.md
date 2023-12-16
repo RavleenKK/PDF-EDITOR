@@ -9,6 +9,7 @@ Some common packages used for making the project are
 • IO
 • pypdf
 
+
 FUTURE SCOPE
 
 The website can be modified to add more interactive features to enhance the user experience. Some modification that can be done are
