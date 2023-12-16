@@ -1,4 +1,5 @@
-The Aim of the project was to create a PDF EDITOR, with common functionalities like Merge, Split, Compress and OCR (text extraction) using REACTJS for frontend and PYTHON for backend
+The Aim of the project was to create a PDF EDITOR, with common functionalities like Merge, Split, Compress and OCR (text extraction) using REACTJS for frontend and PYTHON for backend.
+
 The objective of integrating a PDF editor into ONGC's website is to enhance document management efficiency, simplify file handling, and improve data accessibility by allowing users to merge, split, compress, and perform OCR on PDF documents directly from the website.
 
 Some common packages used for making the project are
@@ -8,6 +9,9 @@ Some common packages used for making the project are
 • PYTESSERACT
 • IO
 • pypdf
+
+
+
 
 
 FUTURE SCOPE
