@@ -2,6 +2,7 @@ The Aim of the project was to create a PDF EDITOR, with common functionalities l
 The objective of integrating a PDF editor into ONGC's website is to enhance document management efficiency, simplify file handling, and improve data accessibility by allowing users to merge, split, compress, and perform OCR on PDF documents directly from the website.
 
 Some common packages used for making the project are
+
 • PyPDF2
 • FLASK
 • PYTESSERACT
@@ -9,6 +10,7 @@ Some common packages used for making the project are
 • pypdf
 
 FUTURE SCOPE
+
 The website can be modified to add more interactive features to enhance the user experience. Some modification that can be done are
 • Drag and drop feature
 • Split all pages of a pdf
