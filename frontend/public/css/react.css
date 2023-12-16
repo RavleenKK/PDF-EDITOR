@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+/* navbar */
+
+.iframeContainer {
+  display: none;
+}
+.iframeContainer .myIframe {
+  width: "400";
+  height: "300";
+}
+.singlecontainer {
+  padding-bottom: 20rem;
+  padding-top: 20rem;
+  /* padding: 150px 9%;
+  padding-bottom: 100px; */
+}
+
+.singlecontainer .heading {
+  text-align: center;
+  padding-bottom: 0.5px;
+  color: #630a10;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+.singlecontainer .subheading {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  color: #3a3a3a;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+.singlecontainer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+.singlecontainer .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: linear-gradient(45deg, #eacd94, #ee9486);
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.singlecontainer .box-container .box img {
+  height: 150px;
+
+  filter: drop-shadow(1px 1px 1px #630a10);
+}
+
+.singlecontainer .box-container .box h3h1 {
+  color: #3a3a3a;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.singlecontainer .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.singlecontainer .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.singlecontainer .mergepdf {
+  text-align: center;
+}
+
+.container {
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  /* padding: 150px 9%;
+  padding-bottom: 100px; */
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 0.5px;
+  color: #630a10;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+.container .subheading {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  color: #3a3a3a;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 0.5fr));
+  gap: 30px;
+}
+
+.container .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: linear-gradient(45deg, #eacd94, #ee9486);
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.container .box-container .box img {
+  height: 150px;
+
+  filter: drop-shadow(1px 1px 1px #630a10);
+}
+
+.container .box-container .box h3h1 {
+  color: #3a3a3a;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.container .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.container .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.container .mergepdf {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #eee;
+  background: #630a10;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.9rem 5rem;
+}
+
+/*--link---*/
+.btn:hover {
+  background: #3a3a3a;
+  color: #ffffff;
+}
+
+.btncolor a {
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+/* navbar */
+
+.website {
+  padding-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #630a10;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav__links a,
+.cta {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #b0101b;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: #4d080c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: #b0101b;
+}
+
+.btn {
+  background-color: #630a10;
+  border-color: #630a10;
+  margin-top: -6px;
+}
+
+.btn:hover {
+  background-color: #630a10;
+  border-color: #630a10;
+}
+
+/* navbar ends */
+
+/* table */
+table {
+  border: lightgrey 0.5px solid;
+}
+
+tbody {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+}
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+thead {
+  width: calc(100% - 1em);
+}
+/* table ends */
+
+/* quick links and stock */
+.img_link {
+  width: 130px;
+  height: 130px;
+}
+.layer .card {
+  height: 130px;
+}
+
+/* quick links and stock ends */
+
+/* birthday and superannuation */
+.layer2 .card {
+  width: 345px;
+  height: 285px;
+}
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+/* birthday and superannuation ends */
+
+/* footer */
+.footer {
+  background-color: #630a10;
+  color: #edf0f1;
+  padding: 3.7rem;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Media Query for tablets and larger devices */
+
+.box .HEADER-wrapper {
+  border: 0px none;
+  height: 128px;
+  width: 1253px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #eee;
+  background: #630a10;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.9rem 5rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.btn:hover {
+  background: #3a3a3a;
+  color: #ffffff;
+}
+
+.btncolor a {
+  color: white;
+}
+
+.btn1 {
+  background-color: #630a10;
+  border-color: #630a10;
+  margin-top: -6px;
+}
+
+.btn1:hover {
+  background-color: #630a10;
+  border-color: #630a10;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
